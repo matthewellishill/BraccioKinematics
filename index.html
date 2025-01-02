@@ -35,7 +35,7 @@
         // Load 3D Model
         const loader = new GLTFLoader();
         loader.load(
-            'table.glb', // Replace with your 3D model's file path
+            '/table.glb', // Replace with your 3D model's file path
             function (gltf) {
                 scene.add(gltf.scene);
                 gltf.scene.position.set(0, 0, 0);
